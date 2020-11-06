@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>I'm title</title>
 </head>
-<h1>
+
 
 <h1>Vice Versa</h1>
-   <form>
-       <textarea rows="10", cols="50"></textarea>
+   <form action="{% url 'reverse' %}">
+       <textarea rows="10", cols="50" name="usertext"></textarea>
        <br><br>
        <input type="submit" value="Reverse!">
    </form>
-    <p>for commit</p>
+
 
 </body>
 </html>
